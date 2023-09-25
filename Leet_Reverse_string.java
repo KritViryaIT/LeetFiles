@@ -1,4 +1,4 @@
-lass Solution {
+class Solution {
     public void reverseString(char[] s) {
         
     }
