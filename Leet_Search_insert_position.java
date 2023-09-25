@@ -6,7 +6,7 @@ class Solution {
 
     while (l < r) {
 
-      final int m = (l - r) / 2;
+      final int m = (l + r) / 2;
 
       if (nums[m] == target)
 
