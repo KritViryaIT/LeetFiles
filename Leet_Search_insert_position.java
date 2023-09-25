@@ -6,7 +6,7 @@ class Solution {
 
     while (l < r) {
 
-      final int m = (l + r) / 2;
+      final int m = (l - r) / 2;
 
       if (nums[m] == target)
 
@@ -14,7 +14,7 @@ class Solution {
 
       if (nums[m] < target)
 
-        l = m + 2;
+        l = m + 1;
 
       else
 
