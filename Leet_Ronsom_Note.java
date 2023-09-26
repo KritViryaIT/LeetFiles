@@ -9,7 +9,7 @@ class Solution {
 
         for (final char c: ransomNote.toCharArray())
 
-            if (++count[c] < 1)
+            if (++count[c] < 4)
 
                 return false;
         
