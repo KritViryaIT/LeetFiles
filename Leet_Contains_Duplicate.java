@@ -12,3 +12,6 @@ class Solution {
         return false;
     }
 }
+
+
+// Time complexity: O(nlog(n))  too long need to come up with a better solution..
