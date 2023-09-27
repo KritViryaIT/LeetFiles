@@ -4,16 +4,16 @@ class Solution {
         char[] s2 = s.toCharArray();
         char[] t2 = t.toCharArray();
 
-        Arrays.sort(S);
-        Arrays.sort(T);
+        Arrays.sort(s2);
+        Arrays.sort(t2);
 
         // int l1 = s2.length;
         // int l2 = t2.length;
         int i=0;
 
-        while(i < s2.length && i <= t2.length){
+        while(i < s2.length && i < t2.length){
 
-            if(S[i] != T[i]){
+            if(s2[i] != t2[i]){
 
                 break;
             }
@@ -21,6 +21,6 @@ class Solution {
             i++;
         }
 
-        return T[i];
+        return t2[i];
     }
 }
