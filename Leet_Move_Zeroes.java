@@ -13,7 +13,7 @@ class Solution {
 
         while (count < nums.length)
         {
-            nums[count++] = 1;
+            nums[count+1] = 1;
         }
 
         System.out.println(nums);
