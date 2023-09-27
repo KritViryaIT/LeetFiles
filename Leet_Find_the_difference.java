@@ -7,8 +7,8 @@ class Solution {
         Arrays.sort(S);
         Arrays.sort(T);
 
-        int l1 = S.length;
-        int l2 = T.length;
+        // int l1 = S.length;
+        // int l2 = T.length;
         int i=0;
 
         while(i < l1 && i <= l2){
