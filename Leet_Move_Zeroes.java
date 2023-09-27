@@ -13,9 +13,11 @@ class Solution {
 
         while (count < nums.length)
         {
-            nums[count+1] = 1;
+            nums[count++] = 0;
         }
 
         System.out.println(nums);
     }
 }
+
+// too slow and memory hungry,  need to improve  ......... 
