@@ -8,5 +8,5 @@ class Solution {
             if (i >= target)
                 count++;
         }
-        return count
+        return count;
     }
