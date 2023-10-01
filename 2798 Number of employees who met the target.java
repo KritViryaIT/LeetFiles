@@ -7,7 +7,6 @@ class Solution {
             if (hours[i] >= target)
                 count++;
         }
-
         return count;
 
     }
