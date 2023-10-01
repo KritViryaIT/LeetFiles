@@ -15,5 +15,3 @@ class Solution {
         return large;
     }
 }
-
-// Need to better memmory
