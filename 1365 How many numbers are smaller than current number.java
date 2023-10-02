@@ -28,7 +28,6 @@ lass Solution {
 
             ans[i] = count;
         }
-
         return ans;
     }
 }
