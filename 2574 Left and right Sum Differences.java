@@ -1,3 +1,4 @@
+/*
 class Solution {
     public int[] leftRightDifference(int[] nums) {
         
@@ -33,4 +34,10 @@ class Solution {
     }
 }
 
-// Works but both the complexities high | Not optimal
+// Works but both the complexities high | Not optimal 
+
+*/
+
+// optimal solution
+
+
