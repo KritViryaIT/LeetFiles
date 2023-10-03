@@ -26,6 +26,15 @@ class Solution {
 
 /*          Shorter Way but not optimal too much time and space complexity
 
+    class Solution {
+    public int mostWordsFound(String[] sentences) {
 
+    int max = 0;
+
+        for (String s : sentences)
+        {
+
+        }
+    }
 
 */
