@@ -33,7 +33,7 @@ class Solution {
 
         for (String s : sentences)
         {
-
+            max = Math.max(max, s.split("\\s").length;
         }
     }
 
