@@ -32,3 +32,5 @@ class Solution {
         return ans;
     }
 }
+
+// Works but both the complexities high | Not optimal
