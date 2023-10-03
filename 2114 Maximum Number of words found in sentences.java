@@ -32,8 +32,9 @@ class Solution {
     int max = 0;
 
         for (String s : sentences)
-        {
             max = Math.max(max, s.split("\\s").length;
+
+        return max;
         }
     }
 
