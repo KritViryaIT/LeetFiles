@@ -18,7 +18,6 @@ class OrderedStream {
             k.add(arr[i]);
             ptr++;
         }
-
         return k;
     }
 }
