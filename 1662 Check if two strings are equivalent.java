@@ -12,3 +12,5 @@ class Solution {
         return s1.equals(s2);
     }
 }
+
+// memory hungry
