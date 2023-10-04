@@ -1,5 +1,4 @@
 class MyHashMap {
-
     int[] data;
 
     public MyHashMap() {
@@ -29,3 +28,5 @@ class MyHashMap {
  */
 
 // Both the complexities are very high | Need to improve.........
+
+// ----------------------    LinkedList Approach ----------------------    
