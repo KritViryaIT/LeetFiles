@@ -29,4 +29,10 @@ class MyHashMap {
 
 // Both the complexities are very high | Need to improve.........
 
-// ----------------------    LinkedList Approach ----------------------
+/* ----------------------    LinkedList Approach ----------------------
+
+Using a basic approach with a hash table that consists of a list of buckets 
+(in this case, a list of ListNode objects), where each bucket represents a 
+hash code.
+
+*/
