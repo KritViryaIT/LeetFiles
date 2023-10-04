@@ -23,7 +23,6 @@ class Solution {
         }
         
         Collections.sort(ret, (a,b) -> a.get(0) - b.get(0));
-        return ret;
-        
+        return ret;     
     }
 }
