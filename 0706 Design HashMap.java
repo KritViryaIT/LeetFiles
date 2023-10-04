@@ -36,3 +36,52 @@ Using a basic approach with a hash table that consists of a list of buckets
 hash code.
 
 */
+
+class MyHashMap {
+
+    final int size = 1000;
+    List<int[]>[] map;
+
+    public MyHashMap() {
+        map = new ArrayList[size];
+        for(int i = 0; i < size; i++)
+        {
+            map[i] = new ArrayList<>();
+        }
+    }
+    
+    public void put(int key, int value) {
+        int index = key % size;
+        List<int[]> bucket = map[index];
+        for (int[] pair : bucket) {
+            if (pair[0] == key) {
+                pair[1] = value; 
+                return;
+            }
+        }
+        bucket.add(new int[]{key, value});        
+    }
+    
+    public int get(int key) {
+         int index = key % size;
+        List<int[]> bucket = map[index];
+        for (int[] pair : bucket) {
+            if (pair[0] == key) {
+                return pair[1]; 
+            }
+        }
+        return -1;        
+    }
+    
+    public void remove(int key) {
+        int index = key % size;
+        List<int[]> bucket = map[index];
+        for (int i = 0; i < bucket.size(); i++) {
+            int[] pair = bucket.get(i);
+            if (pair[0] == key) {
+                bucket.remove(i); 
+                return;
+            }
+        }
+    }
+}
