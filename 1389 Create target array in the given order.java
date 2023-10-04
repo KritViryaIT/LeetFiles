@@ -12,7 +12,6 @@ class Solution {
             target[i] = arrl.get(i);
         }
         return target;
-
     }
 }
 
