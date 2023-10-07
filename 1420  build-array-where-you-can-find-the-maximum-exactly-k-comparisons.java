@@ -9,7 +9,9 @@ class Solution {
             for (int cost = 0; cost < Math.min(i + 1, k); cost++) {
                 
                 for (int max = 0; max < m; max++) {
+                    
                     dp[i][cost][max] = (dp[i][cost][max] + (max + 1) * dp[i - 1][cost][max]) % mod;
+                    
                     if (cost != 0) {
                         long sum = 0;
                         for (int prevMax = 0; prevMax < max; prevMax++) {
