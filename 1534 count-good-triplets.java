@@ -1,6 +1,6 @@
 class Solution {
     public int countGoodTriplets(int[] arr, int a, int b, int c) {
-int count = 0;
+        int count = 0;
         for(int i = 0; i < arr.length - 2; i++) {
             for(int j = i + 1; j < arr.length - 1; j++) {
                 if(Math.abs(arr[i] - arr[j]) <= a) {
