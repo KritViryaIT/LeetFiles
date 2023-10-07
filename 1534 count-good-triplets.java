@@ -16,3 +16,5 @@ class Solution {
         return count;
     }
 }
+
+// not the most optimal but still simple and good solution ...........
