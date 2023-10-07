@@ -5,7 +5,9 @@ class Solution {
         Arrays.fill(dp[0][0], 1);
         
         for (int i = 1; i < n; i++) {
+            
             for (int cost = 0; cost < Math.min(i + 1, k); cost++) {
+                
                 for (int max = 0; max < m; max++) {
                     dp[i][cost][max] = (dp[i][cost][max] + (max + 1) * dp[i - 1][cost][max]) % mod;
                     if (cost != 0) {
