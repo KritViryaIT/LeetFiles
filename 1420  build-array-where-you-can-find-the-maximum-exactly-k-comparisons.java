@@ -13,11 +13,14 @@ class Solution {
                     dp[i][cost][max] = (dp[i][cost][max] + (max + 1) * dp[i - 1][cost][max]) % mod;
                     
                     if (cost != 0) {
+                        
                         long sum = 0;
                         for (int prevMax = 0; prevMax < max; prevMax++) {
+                            
                             sum += dp[i - 1][cost - 1][prevMax];
                             sum %= mod;
                         }
+                        
                         dp[i][cost][max] = (dp[i][cost][max] + sum) % mod;
                     }
                 }
