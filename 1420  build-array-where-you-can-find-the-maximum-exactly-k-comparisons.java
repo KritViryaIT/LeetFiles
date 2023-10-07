@@ -29,6 +29,7 @@ class Solution {
         
         long ans = 0;
         for (int max = 0; max < m; max++) {
+            
             ans += dp[n - 1][k - 1][max];
             ans %= mod;
         }
