@@ -13,6 +13,7 @@ class Solution {
                     dp[i][j] = Integer.MIN_VALUE;
                 } 
                 else {
+                    
                     dp[i][j] = Math.max(
                         
                         nums1[i - 1] * nums2[j - 1] + Math.max(dp[i - 1][j - 1], 0),
