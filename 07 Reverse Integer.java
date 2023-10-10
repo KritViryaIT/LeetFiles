@@ -12,4 +12,9 @@ class Solution {
 
             if (c1 > 21474 || c2 > 83647) return 0;
         }
+
+       int num = Integer.parseInt(s.toString());
         
+        return (x < 0) ? -num : num ;
+    }
+}
