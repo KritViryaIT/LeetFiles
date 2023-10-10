@@ -9,3 +9,5 @@ class Solution {
         return ths[num/1000] + hrns[(num%1000)/100] + tens[(num%100)/10] + ones[num%10];
     }
 }
+
+// Need to improve both the complexities............
