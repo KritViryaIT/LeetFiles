@@ -13,3 +13,10 @@ class Solution {
         {
             if ( nums[i] == target)
             {
+                ans[0] = i;
+                ans[1] = i;
+
+                for (int j = i + 1; j < nums.length; j++)
+                {
+                    if (nums[j] == target) ans[1] = j;
+                }
