@@ -20,3 +20,12 @@ class Solution {
                 {
                     if (nums[j] == target) ans[1] = j;
                 }
+
+                break;
+            }
+
+        }
+
+        return ans;
+    }
+}
