@@ -11,3 +11,6 @@ class Solution {
             }
             count = Math.min(count, i+(nums.length-j)+dup-dupArr[i]);
         }
+        return count;
+    }
+}
