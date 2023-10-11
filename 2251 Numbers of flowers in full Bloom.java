@@ -37,3 +37,6 @@ class Solution {
                 result[i] = entry.getValue(); 
             }
         }
+        return result;
+    }
+}
