@@ -25,3 +25,15 @@ class Solution {
             prev += entry.getValue();
             sum.put(entry.getKey(), prev);
         }
+       
+        // Calculate bloom statuses for each person.
+        for (int i = 0; i < n; i++) 
+        {
+            // Find the floor entry for the person's bloom time.
+            Map.Entry<Integer, Integer> entry = sum.floorEntry(people[i]);
+            if (entry != null) 
+            {
+                // Store the number of blooming flowers at that time.
+                result[i] = entry.getValue(); 
+            }
+        }
