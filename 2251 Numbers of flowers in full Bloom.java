@@ -15,3 +15,13 @@ class Solution {
             // Decrement the end time frequency (add 1 to end time to indicate the end of the interval).
             treeMap.put(flowers[i][1] + 1, treeMap.getOrDefault(flowers[i][1] + 1, 0) - 1);
         }
+        
+        // Create another TreeMap to accumulate the frequencies and track the number of flowers blooming at each moment.
+        TreeMap<Integer, Integer> sum = new TreeMap<>();
+        int prev = 0;
+
+        for (Map.Entry<Integer, Integer> entry : treeMap.entrySet()) 
+        {
+            prev += entry.getValue();
+            sum.put(entry.getKey(), prev);
+        }
