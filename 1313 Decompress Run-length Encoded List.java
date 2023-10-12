@@ -12,3 +12,6 @@ class Solution {
             Arrays.fill(result, startIdx, startIdx + nums[i], nums[i + 1]);
             startIdx += nums[i];
         }
+        return result;
+    }
+}
