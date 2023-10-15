@@ -8,3 +8,26 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+class Solution {
+
+    int index;
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        
+       // int index;
+
+        if(head==null) 
+        {
+            index =0;
+            return null;
+        }
+        head.next = removeNthFromEnd(head.next,n);
+        index++;
+
+        if(n == index)
+            return head.next;
+
+        return head;
+    }
+}
