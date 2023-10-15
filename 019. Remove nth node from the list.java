@@ -15,7 +15,7 @@ class Solution {
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         
-       // int index;
+
 
         if(head==null) 
         {
