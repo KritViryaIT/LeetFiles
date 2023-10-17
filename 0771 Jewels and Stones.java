@@ -17,3 +17,5 @@ class Solution {
         return count;
     }
 }
+
+// --------------------- 2nd Approach ---------------------
