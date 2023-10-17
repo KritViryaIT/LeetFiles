@@ -9,3 +9,7 @@ class Solution {
                 s += "G";
             
             else if (command.charAt(i) == '(' && command.charAt(i + 1) == ')')
+           {
+                s += "o";
+                i++;
+            }
