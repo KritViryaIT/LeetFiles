@@ -37,4 +37,14 @@ class Solution {
                 s.append("G");
             
             else if (command.charAt(i) == '(' && command.charAt(i + 1) == ')')
-                
+            {
+                s.append("o");
+                i++;
+            }
+
+            else
+            {
+                s.append("al");
+                i += 3;
+            }
+        }
