@@ -24,3 +24,10 @@ class Solution {
         return s;
     }
 }
+
+// ----------------- 2nd Approach -----------------
+
+class Solution {
+    public String interpret(String command) {
+        
+        StringBuilder s = new StringBuilder(command.length());
