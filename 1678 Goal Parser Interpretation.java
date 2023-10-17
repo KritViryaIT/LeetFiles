@@ -19,4 +19,8 @@ class Solution {
                 s += "al";
                 i += 3;
             }
-            
+        }
+
+        return s;
+    }
+}
