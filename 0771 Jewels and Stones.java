@@ -19,3 +19,6 @@ class Solution {
 }
 
 // --------------------- 2nd Approach ---------------------
+
+class Solution {
+    public int numJewelsInStones(String jewels, String stones) {
