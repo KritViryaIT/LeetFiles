@@ -13,3 +13,10 @@ class Solution {
                 s += "o";
                 i++;
             }
+
+            else if (command.charAt(i) == '(' && command.charAt(i + 3) == ')')
+            {
+                s += "al";
+                i += 3;
+            }
+            
