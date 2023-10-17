@@ -48,3 +48,7 @@ class Solution {
                 i += 3;
             }
         }
+
+        return s.toString();
+    }
+}
