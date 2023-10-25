@@ -7,7 +7,6 @@ class Solution {
 
         while (n != 1) 
         {
-
             n /= 2;
  
             if (k > n) 
